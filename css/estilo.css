@@ -44,6 +44,13 @@ div.contenedorPrueba {
   text-align: center;
 }
 
+@media screen and (max-width: 1080px) {
+  div.contenedorPrueba {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
 div.contenedorPrueba div.beneficios {
   text-align: center;
 }
@@ -72,6 +79,7 @@ div.contenedorPrueba div.filaPrueba div.columnaPrueba img.imgEjemplo {
     width: 300px;
     height: auto;
     margin: 0 auto;
+    margin-bottom: 20px;
     text-align: center;
   }
 }
