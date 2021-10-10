@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
- <!--  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,600&display=swap" rel="stylesheet"> -->
+  <!--  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,600&display=swap" rel="stylesheet"> -->
   <link rel="stylesheet" href="./css/estilo.css">
   <title>Document</title>
 </head>
@@ -30,9 +30,18 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Inicio</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./pages/cursos.html">Cursos</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Cursos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./pages/cursos.html">Presenciales</a></li>
+                <li><a class="dropdown-item" href="#">Virtuales</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Modalidad mixta</a></li>
+              </ul>
             </li>
+           
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="./pages/sedes.html">Sedes</a>
             </li>
@@ -104,7 +113,8 @@
       <div class="col-xs-12 col-xl-6 columnaPrueba">
         <div class="nuestraFilosofia">
           <h2 class="bloque_subtitulo">Nuestra filosofía</h2>
-          <p class="parrafoPrueba">Desde colmena nos proponemos disminuir la brecha de género que existe en el mundo laboral desde la capacitación e inserción </p>
+          <p class="parrafoPrueba">Desde colmena nos proponemos disminuir la brecha de género que existe en el mundo
+            laboral desde la capacitación e inserción </p>
         </div>
       </div>
       <div class="col-xs-12 col-xl-6  columnaPrueba">
@@ -203,7 +213,9 @@
   </script>
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

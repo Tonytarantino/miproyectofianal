@@ -1,0 +1,160 @@
+@import "variables";
+@import "navbar";
+
+body {
+    font-family: $miTipografia;
+    max-width: 100%;
+}
+
+img {
+    max-width: 90%;
+    margin: 10px;
+}
+
+div {
+    &.curso {
+        margin-bottom: 30px;
+        /* text-align: center; */
+        @media screen and (max-width: 1080px) {
+            max-width: 100%;
+            text-align: center;
+            /* margin: 0 auto; */
+        }
+        div {
+            &.curso_fila {
+                @media screen and (max-width: 1080px) {
+                    max-width: 300px;
+                    display: block;
+                    /* margin: 0 auto; */
+                   /*  margin: 0 auto; */
+                }
+
+                div {
+                    &.curso_col {
+                        @media screen and (max-width: 1080px) {
+                            max-width: 300px;
+                        }
+                        div {
+                            &.curso_info {
+                                margin: 30px;
+                                text-align: start;
+                                @media screen and (max-width: 1080px) {
+                                    text-align: center;
+                                }
+                                div {
+                                    &.curso_detalles {
+                                        ul {
+                                            list-style: none;
+                                            margin-top: 30px;
+                                            li {
+                                                span {
+                                                    margin: 5px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    &.curso_boton {
+                                        text-align: center;
+                                        margin-top: 50px;
+
+                                        button {
+                                            &.curso_miBoton {
+                                                color: $colorPrimario;
+                                                background-color: $colorSecundario;
+                                                border: 1px solid $colorPrimario;
+                                                border-radius: 0;
+                                                padding: 3px;
+                                            }
+                                            &.curso_miBoton:hover {
+                                                background-color: $colorPrimario;
+                                                color: white;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &.curso_col_img {
+                        /* display: flex;
+                        justify-content: center; */
+
+                        img {
+                            &.curso_img {
+                                width: 90%;
+                                display: flex;
+                                justify-content: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+div {
+    &.cursosIntroductorios {
+        max-width: 100%;
+        /* margin: 0 auto; */
+        text-align: center;
+        margin-top: 100px;
+        h1 {
+            color: $colorPrimario;
+            margin-bottom: 30px;
+            @media screen and (max-width: 1080px) {
+                text-align: center;
+            }
+        }
+        p {
+            margin: 30px;
+            margin-bottom: 50px;
+        }
+        div {
+            &.cursoIntro_miBoton {
+                text-align: center;
+                button {
+                    &.miBoton {
+                        background-color: $colorPrimario;
+                        color: white;
+                        border: none;
+                        box-shadow: $sombra;
+                        margin: 30px;
+                        margin-bottom: 100px;
+                        border-radius: 0;
+                    }
+                    &.miBoton:hover {
+                        background-color: white;
+                        color: $colorPrimario;
+                        border: 1px solid $colorPrimario;
+                        border-radius: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* div{
+    &.agenda{
+        @media screen and (max-width: 1080px) {
+            max-width: 300px;
+            margin: 0;
+        }
+        h2{
+            &.agenda_titulo {
+                text-align: center;
+            }
+        }
+        div{
+            &.agenda_lista{
+                margin: 20px;
+               div{
+                   &.list-group{
+                    max-width: 100%;
+                   }
+               }
+            }
+        }
+    }
+} */
