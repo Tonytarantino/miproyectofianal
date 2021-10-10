@@ -146,28 +146,4 @@ div.cursosIntroductorios div.cursoIntro_miBoton button.miBoton:hover {
   border: 1px solid #880e4f;
   border-radius: 0;
 }
-
-/* div{
-    &.agenda{
-        @media screen and (max-width: 1080px) {
-            max-width: 300px;
-            margin: 0;
-        }
-        h2{
-            &.agenda_titulo {
-                text-align: center;
-            }
-        }
-        div{
-            &.agenda_lista{
-                margin: 20px;
-               div{
-                   &.list-group{
-                    max-width: 100%;
-                   }
-               }
-            }
-        }
-    }
-} */
 /*# sourceMappingURL=sedesa.css.map */

@@ -1,5 +1,6 @@
 @import "variables";
 @import "navbar";
+@import "mixin";
 
 body {
     font-family: $miTipografia;
@@ -135,26 +136,18 @@ div {
     }
 }
 
-/* div{
+div {
     &.agenda{
-        @media screen and (max-width: 1080px) {
-            max-width: 300px;
-            margin: 0;
-        }
-        h2{
-            &.agenda_titulo {
-                text-align: center;
-            }
-        }
-        div{
-            &.agenda_lista{
-                margin: 20px;
-               div{
-                   &.list-group{
-                    max-width: 100%;
-                   }
-               }
+        div {
+            &.agenda_lista {
+                div {
+                    &.list-group {
+                        @include tablet {
+                            max-width: 300px;
+                        }
+                    }
+                }
             }
         }
     }
-} */
+}
