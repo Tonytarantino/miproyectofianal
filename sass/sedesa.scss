@@ -1,18 +1,17 @@
 @import "variables";
 @import "navbar";
 @import "mixing";
+@import "footer";
 
 body {
     font-family: $miTipografia;
     max-width: 100%;
-    
 }
 
 img {
     max-width: 90%;
     margin: 10px;
 }
-
 
 div {
     &.cursosIntroductorios {
@@ -59,7 +58,6 @@ div {
         }
     }
 }
-
 
 div {
     &.curso {
@@ -137,13 +135,10 @@ div {
     }
 }
 
-
-
-
 div {
     &.agenda_contenedor {
         border: 2px solid $colorPrimario;
-        margin:30px ;
+        margin: 30px;
         @media screen and (max-width: 1080px) {
             border: none;
             margin: 0 auto;
@@ -158,7 +153,6 @@ div {
                 @media screen and (max-width: 1080px) {
                     max-width: 100%;
                 }
-        
             }
         }
         div {
@@ -180,11 +174,11 @@ div {
                         background-color: $colorTerciario;
                         border-radius: 0;
                         @media screen and (max-width: 1080px) {
-                            max-width: 100%;            
-                            
+                            max-width: 100%;
+
                             margin: 0;
                             margin-top: 10px;
-                        }              
+                        }
                     }
                     &.list-group-item:hover {
                         box-shadow: $sombra;
@@ -196,6 +190,9 @@ div {
 }
 
 div {
+    &.pagos {
+        margin-top: 100px;
+    }
     &.pago_forma {
         width: 500px;
         margin: 0 auto;
@@ -203,6 +200,10 @@ div {
         box-shadow: $sombra;
         padding: 30px;
         margin-bottom: 100px;
+        a {
+            color: $colorPrimario;
+            text-decoration: none;
+        }
         h4 {
             &.pago_subtitulo {
                 color: $colorPrimario;
@@ -217,6 +218,7 @@ div {
     }
     h2 {
         &.pagos_titulo {
+            margin-top: 50px;
             color: $colorPrimario;
             text-align: center;
             padding-bottom: 50px;

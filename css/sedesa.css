@@ -11,6 +11,24 @@ header nav div.container-fluid.collapse form.d-flex button.boton {
   border: 2px solid black;
 }
 
+footer {
+  background-color: #880e4f;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+footer ul.nav li.nav-item a.nav-link {
+  color: white;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   max-width: 100%;
@@ -210,6 +228,10 @@ div.agenda_contenedor div.list-group a.list-group-item:hover {
           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+div.pagos {
+  margin-top: 100px;
+}
+
 div.pago_forma {
   width: 500px;
   margin: 0 auto;
@@ -218,6 +240,11 @@ div.pago_forma {
           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 30px;
   margin-bottom: 100px;
+}
+
+div.pago_forma a {
+  color: #880e4f;
+  text-decoration: none;
 }
 
 div.pago_forma h4.pago_subtitulo {
@@ -230,6 +257,7 @@ div.pago_forma i.fa-credit-card {
 }
 
 div h2.pagos_titulo {
+  margin-top: 50px;
   color: #880e4f;
   text-align: center;
   padding-bottom: 50px;
