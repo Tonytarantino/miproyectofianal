@@ -87,10 +87,6 @@ div.curso div.curso_fila div.curso_col div.curso_info div.curso_boton button.cur
   color: white;
 }
 
-div.curso div.curso_fila div.curso_col_img {
-  /* display: flex;
-                        justify-content: center; */
-}
 
 div.curso div.curso_fila div.curso_col_img img.curso_img {
   width: 90%;
