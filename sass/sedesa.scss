@@ -5,12 +5,61 @@
 body {
     font-family: $miTipografia;
     max-width: 100%;
+    
 }
 
 img {
     max-width: 90%;
     margin: 10px;
 }
+
+
+div {
+    &.cursosIntroductorios {
+        max-width: 100%;
+        text-align: center;
+        margin-top: 100px;
+        @media screen and (max-width: 1080px) {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: $colorPrimario;
+            margin-bottom: 30px;
+            @media screen and (max-width: 1080px) {
+                text-align: center;
+                margin-top: 30px;
+            }
+        }
+        p {
+            margin: 30px;
+            margin-bottom: 50px;
+        }
+        div {
+            &.cursoIntro_miBoton {
+                text-align: center;
+                button {
+                    &.miBoton {
+                        background-color: $colorPrimario;
+                        color: white;
+                        border: none;
+                        box-shadow: $sombra;
+                        margin: 30px;
+                        margin-bottom: 100px;
+                        border-radius: 0;
+                    }
+                    &.miBoton:hover {
+                        background-color: white;
+                        color: $colorPrimario;
+                        border: 1px solid $colorPrimario;
+                        border-radius: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 div {
     &.curso {
@@ -25,6 +74,7 @@ div {
                 @media screen and (max-width: 1080px) {
                     max-width: 300px;
                     display: block;
+                    margin: 0 auto;
                 }
                 div {
                     &.curso_col {
@@ -87,46 +137,6 @@ div {
     }
 }
 
-div {
-    &.cursosIntroductorios {
-        max-width: 100%;
-        text-align: center;
-        margin-top: 100px;
-        h1 {
-            color: $colorPrimario;
-            margin-bottom: 30px;
-            @media screen and (max-width: 1080px) {
-                text-align: center;
-            }
-        }
-        p {
-            margin: 30px;
-            margin-bottom: 50px;
-        }
-        div {
-            &.cursoIntro_miBoton {
-                text-align: center;
-                button {
-                    &.miBoton {
-                        background-color: $colorPrimario;
-                        color: white;
-                        border: none;
-                        box-shadow: $sombra;
-                        margin: 30px;
-                        margin-bottom: 100px;
-                        border-radius: 0;
-                    }
-                    &.miBoton:hover {
-                        background-color: white;
-                        color: $colorPrimario;
-                        border: 1px solid $colorPrimario;
-                        border-radius: 0;
-                    }
-                }
-            }
-        }
-    }
-}
 
 
 
@@ -136,8 +146,8 @@ div {
         margin:30px ;
         @media screen and (max-width: 1080px) {
             border: none;
-            margin: 0;
-            max-width: 300px;
+            margin: 0 auto;
+            /* max-width: 300px; */
         }
         h2 {
             &.agenda_titulo {

@@ -21,6 +21,58 @@ img {
   margin: 10px;
 }
 
+div.cursosIntroductorios {
+  max-width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 1080px) {
+  div.cursosIntroductorios {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+div.cursosIntroductorios h1 {
+  color: #880e4f;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1080px) {
+  div.cursosIntroductorios h1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+div.cursosIntroductorios p {
+  margin: 30px;
+  margin-bottom: 50px;
+}
+
+div.cursosIntroductorios div.cursoIntro_miBoton {
+  text-align: center;
+}
+
+div.cursosIntroductorios div.cursoIntro_miBoton button.miBoton {
+  background-color: #880e4f;
+  color: white;
+  border: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 30px;
+  margin-bottom: 100px;
+  border-radius: 0;
+}
+
+div.cursosIntroductorios div.cursoIntro_miBoton button.miBoton:hover {
+  background-color: white;
+  color: #880e4f;
+  border: 1px solid #880e4f;
+  border-radius: 0;
+}
+
 div.curso {
   margin-bottom: 30px;
 }
@@ -37,6 +89,7 @@ div.curso {
   div.curso div.curso_fila {
     max-width: 300px;
     display: block;
+    margin: 0 auto;
   }
 }
 
@@ -94,50 +147,6 @@ div.curso div.curso_fila div.curso_col_img img.curso_img {
           justify-content: center;
 }
 
-div.cursosIntroductorios {
-  max-width: 100%;
-  text-align: center;
-  margin-top: 100px;
-}
-
-div.cursosIntroductorios h1 {
-  color: #880e4f;
-  margin-bottom: 30px;
-}
-
-@media screen and (max-width: 1080px) {
-  div.cursosIntroductorios h1 {
-    text-align: center;
-  }
-}
-
-div.cursosIntroductorios p {
-  margin: 30px;
-  margin-bottom: 50px;
-}
-
-div.cursosIntroductorios div.cursoIntro_miBoton {
-  text-align: center;
-}
-
-div.cursosIntroductorios div.cursoIntro_miBoton button.miBoton {
-  background-color: #880e4f;
-  color: white;
-  border: none;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  margin: 30px;
-  margin-bottom: 100px;
-  border-radius: 0;
-}
-
-div.cursosIntroductorios div.cursoIntro_miBoton button.miBoton:hover {
-  background-color: white;
-  color: #880e4f;
-  border: 1px solid #880e4f;
-  border-radius: 0;
-}
-
 div.agenda_contenedor {
   border: 2px solid #880e4f;
   margin: 30px;
@@ -146,8 +155,8 @@ div.agenda_contenedor {
 @media screen and (max-width: 1080px) {
   div.agenda_contenedor {
     border: none;
-    margin: 0;
-    max-width: 300px;
+    margin: 0 auto;
+    /* max-width: 300px; */
   }
 }
 
