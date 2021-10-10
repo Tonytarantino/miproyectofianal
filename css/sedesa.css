@@ -23,6 +23,7 @@ footer {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  width: 100%;
 }
 
 footer ul.nav li.nav-item a.nav-link {
@@ -92,7 +93,8 @@ div.cursosIntroductorios div.cursoIntro_miBoton button.miBoton:hover {
 }
 
 div.curso {
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 80px;
 }
 
 @media screen and (max-width: 1080px) {

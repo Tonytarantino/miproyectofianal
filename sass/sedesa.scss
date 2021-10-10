@@ -61,7 +61,8 @@ div {
 
 div {
     &.curso {
-        margin-bottom: 30px;
+        margin-top: 50px;
+        margin-bottom: 80px;
         @media screen and (max-width: 1080px) {
             max-width: 100%;
             text-align: center;

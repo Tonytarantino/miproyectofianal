@@ -23,6 +23,7 @@ footer {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  width: 100%;
 }
 
 footer ul.nav li.nav-item a.nav-link {
