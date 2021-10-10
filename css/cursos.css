@@ -18,11 +18,11 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 footer ul.nav li.nav-item a.nav-link {
@@ -55,7 +55,7 @@ div.cursosIntroductorios button.miBoton {
   color: white;
   border: none;
   -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 div.cursosIntroductorios button.miBoton:hover {
@@ -117,7 +117,7 @@ div.cursos div.curso_seccion div.curso_info div.curso_boton button.curso_miBoton
   background-color: #880e4f;
   color: white;
   -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 div.cursos div.curso_seccion div.curso_info {
@@ -140,7 +140,7 @@ div.cursos div.curso_seccion div.curso_info {
 div.cursos div.curso_seccion div.curso_contenedorImagen img.curso_img {
   width: 500px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 50px;
   margin-top: 70px;
 }
@@ -163,7 +163,7 @@ div.cursos div.curso_seccion div.curso_contenedorImagen img.curso_img {
   div.cursos div.curso_seccion div.curso_contenedorImagen img.curso_img {
     width: 300px;
     -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 0;
     margin-top: 70px;
   }
@@ -188,7 +188,7 @@ div.cronograma div.list-group a.list-group-item {
   color: black;
   margin-bottom: 10px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 div.cronograma div.list-group a.list-group-item:hover {
@@ -217,7 +217,7 @@ div.pago_forma {
   margin: 0 auto;
   text-align: center;
   -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 30px;
   margin-bottom: 100px;
 }

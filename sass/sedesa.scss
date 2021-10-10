@@ -194,3 +194,37 @@ div {
         }
     }
 }
+
+div {
+    &.pago_forma {
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+        box-shadow: $sombra;
+        padding: 30px;
+        margin-bottom: 100px;
+        h4 {
+            &.pago_subtitulo {
+                color: $colorPrimario;
+            }
+        }
+        i {
+            &.fa-credit-card {
+                font-size: 70px;
+                margin: 10px;
+            }
+        }
+    }
+    h2 {
+        &.pagos_titulo {
+            color: $colorPrimario;
+            text-align: center;
+            padding-bottom: 50px;
+        }
+    }
+    &.pago_forma {
+        @media screen and (max-width: 1080px) {
+            max-width: 300px;
+        }
+    }
+}

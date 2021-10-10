@@ -209,4 +209,35 @@ div.agenda_contenedor div.list-group a.list-group-item:hover {
   -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+div.pago_forma {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 30px;
+  margin-bottom: 100px;
+}
+
+div.pago_forma h4.pago_subtitulo {
+  color: #880e4f;
+}
+
+div.pago_forma i.fa-credit-card {
+  font-size: 70px;
+  margin: 10px;
+}
+
+div h2.pagos_titulo {
+  color: #880e4f;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1080px) {
+  div.pago_forma {
+    max-width: 300px;
+  }
+}
 /*# sourceMappingURL=sedesa.css.map */
