@@ -142,9 +142,11 @@ div {
             &.agenda_lista {
                 div {
                     &.list-group {
+                        margin: 10px;
                         @include tablet {
                             max-width: 300px;
                         }
+
                     }
                 }
             }
