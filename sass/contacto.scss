@@ -16,19 +16,54 @@ div {
                 color: $colorPrimario;
             }
         }
+        p {
+            &.nosotras_intro {
+                text-align: justify;
+                margin: 50px;
+                @media screen and (max-width: 1080px) {
+                    margin: 3px;
+                }
+            }
+        }
+        h2 {
+            &.nosotras_lema {
+                margin-top: 100px;
+                color: $colorPrimario;
+            }
+        }
     }
 }
-
+div {
+    &.nosotras_contactate {
+        text-align: center;
+        margin: 100px;
+        @media screen and (max-width: 1080px){
+            margin: 5px;
+        }
+        p {
+            &.nosotras_contactateParrafo{
+               margin: 50px;
+                @media screen and (max-width: 1080px) {
+                    margin: 5px;
+                    text-align: start;
+                }
+            }
+        }
+    }
+}
 div {
     &.formulario {
         display: flex;
-
         div {
             &.formulario_campos {
                 width: 50%;
                 margin: 10px;
                 margin-left: 40px;
                 margin-right: 40px;
+                @media screen and (max-width: 1080px) {
+                    max-width: 100%;
+                    margin: 0 auto;
+                }
                 div {
                     &.formulario_boton {
                         text-align: center;
@@ -41,7 +76,7 @@ div {
                                 background-color: $colorSecundario;
                                 color: $colorPrimario;
                                 border: 1px solid $colorPrimario;
-                                font-weight:bolder ;
+                                font-weight: bolder;
                             }
                         }
                     }
@@ -70,8 +105,8 @@ body {
                 display: block;
                 div {
                     &.formulario_campos {
-                        max-width: 370px;
-                        margin: 0 auto ;
+                        max-width: 100%;
+                        margin: 0 auto;
                     }
                     &.formulario_img {
                         text-align: center;

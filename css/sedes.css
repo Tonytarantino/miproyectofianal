@@ -13,7 +13,7 @@ header nav div.container-fluid.collapse form.d-flex button.boton {
 
 footer {
   background-color: #880e4f;
-  height: 100px;
+  height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,6 +24,12 @@ footer {
       -ms-flex-pack: end;
           justify-content: flex-end;
   width: 100%;
+}
+
+@media screen and (max-width: 1080px) {
+  footer ul {
+    max-width: 100%;
+  }
 }
 
 footer ul.nav li.nav-item a.nav-link {

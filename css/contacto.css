@@ -13,7 +13,7 @@ header nav div.container-fluid.collapse form.d-flex button.boton {
 
 footer {
   background-color: #880e4f;
-  height: 100px;
+  height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,6 +24,12 @@ footer {
       -ms-flex-pack: end;
           justify-content: flex-end;
   width: 100%;
+}
+
+@media screen and (max-width: 1080px) {
+  footer ul {
+    max-width: 100%;
+  }
 }
 
 footer ul.nav li.nav-item a.nav-link {
@@ -44,6 +50,44 @@ div.nosotras h1.nosotras_titulo {
   color: #880e4f;
 }
 
+div.nosotras p.nosotras_intro {
+  text-align: justify;
+  margin: 50px;
+}
+
+@media screen and (max-width: 1080px) {
+  div.nosotras p.nosotras_intro {
+    margin: 3px;
+  }
+}
+
+div.nosotras h2.nosotras_lema {
+  margin-top: 100px;
+  color: #880e4f;
+}
+
+div.nosotras_contactate {
+  text-align: center;
+  margin: 100px;
+}
+
+@media screen and (max-width: 1080px) {
+  div.nosotras_contactate {
+    margin: 5px;
+  }
+}
+
+div.nosotras_contactate p.nosotras_contactateParrafo {
+  margin: 50px;
+}
+
+@media screen and (max-width: 1080px) {
+  div.nosotras_contactate p.nosotras_contactateParrafo {
+    margin: 5px;
+    text-align: start;
+  }
+}
+
 div.formulario {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -55,6 +99,13 @@ div.formulario div.formulario_campos {
   margin: 10px;
   margin-left: 40px;
   margin-right: 40px;
+}
+
+@media screen and (max-width: 1080px) {
+  div.formulario div.formulario_campos {
+    max-width: 100%;
+    margin: 0 auto;
+  }
 }
 
 div.formulario div.formulario_campos div.formulario_boton {
@@ -88,7 +139,7 @@ div.formulario div.formulario_img img {
     display: block;
   }
   body div.formulario div.formulario_campos {
-    max-width: 370px;
+    max-width: 100%;
     margin: 0 auto;
   }
   body div.formulario div.formulario_img {

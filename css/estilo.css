@@ -33,6 +33,31 @@ h5.subtitulo_carrusel {
   /*  font-weight: 400; */
 }
 
+footer {
+  background-color: #880e4f;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+@media screen and (max-width: 1080px) {
+  footer ul {
+    max-width: 100%;
+  }
+}
+
+footer ul.nav li.nav-item a.nav-link {
+  color: white;
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -56,6 +81,11 @@ div.contenedorPrueba div.beneficios {
   text-align: center;
 }
 
+div.contenedorPrueba div.beneficios ul.beneficios_lista {
+  text-align: start;
+  color: black;
+}
+
 div.contenedorPrueba div.beneficios h2.bloque_subtitulo {
   color: #880e4f;
   margin-bottom: 50px;
@@ -69,6 +99,15 @@ div.contenedorPrueba div.filaPrueba div.columnaPrueba {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+}
+
+div.contenedorPrueba div.filaPrueba div.columnaPrueba div.nuestraFilosofia h2.bloque_subtitulo {
+  color: #880e4f;
+  margin-bottom: 50px;
+}
+
+div.contenedorPrueba div.filaPrueba div.columnaPrueba div.nuestraFilosofia p.parrafoPrueba {
+  text-align: justify;
 }
 
 div.contenedorPrueba div.filaPrueba div.columnaPrueba img.imgEjemplo {
@@ -118,12 +157,18 @@ div.callAction h2.callAction_titulo {
   margin-bottom: 50px;
 }
 
-div.callAction h2 button.miBoton {
-  background-color: black;
+div.callAction button.miBoton {
+  background-color: #880e4f;
+  color: white;
+  border: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-div.callAction h2 button.btn-primary {
-  background-color: black;
+div.callAction button.miBoton:hover {
+  background-color: #fcedf5;
+  color: #880e4f;
+  border: 1px solid #880e4f;
 }
 
 /* end call */

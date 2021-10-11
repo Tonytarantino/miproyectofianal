@@ -1,6 +1,7 @@
 @import "variables";
 @import "navbar";
 @import "carrusel";
+@import "footer";
 
 body {
     font-family: $miTipografia;
@@ -11,7 +12,7 @@ div {
     &.contenedorPrueba {
         @media screen and (max-width: 1080px) {
             max-width: 300px;
-            margin: 0 auto;         
+            margin: 0 auto;
         }
         margin: 50px;
         margin-top: 100px;
@@ -20,6 +21,12 @@ div {
         div {
             &.beneficios {
                 text-align: center;
+                ul {
+                    &.beneficios_lista {
+                        text-align: start;
+                        color: black;
+                    }
+                }
                 h2 {
                     &.bloque_subtitulo {
                         color: $colorPrimario;
@@ -29,12 +36,27 @@ div {
             }
         }
         div {
-            &.filaPrueba {             
+            &.filaPrueba {
                 div {
                     &.columnaPrueba {
                         display: flex;
                         align-items: center;
-                        text-align: center;                    
+                        text-align: center;
+                        div {
+                            &.nuestraFilosofia {
+                                h2 {
+                                    &.bloque_subtitulo {
+                                        color: $colorPrimario;
+                                        margin-bottom: 50px;
+                                    }
+                                }
+                                p {
+                                    &.parrafoPrueba {
+                                        text-align: justify;
+                                    }
+                                }
+                            }
+                        }
                         img {
                             &.imgEjemplo {
                                 width: 100%;
@@ -71,62 +93,66 @@ div {
     }
 }
 /* card */
- div {
-     &.cardContainer {
-         div {
-             &.col {
-                 div {
-                     &.card {
+div {
+    &.cardContainer {
+        div {
+            &.col {
+                div {
+                    &.card {
                         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
                         text-align: center;
-                        border:0;
-                     }
-                 }
-             }
-         }
-     }
- }
-
- div {
-     &.callAction {
-         margin-top: 70px;
-         text-align: center;
-         margin-bottom: 100px;
-
-         h2 {
-             &.callAction_titulo {
-                 color: $colorPrimario;
-                 font-size: 50px;
-                 margin-bottom: 50px;
-             }
-         
-         button {
-            &.miBoton {
-                background-color: black; 
-             }
-             &.btn-primary {
-                 background-color: black;
-             }
+                        border: 0;
+                    }
+                }
             }
         }
-             
-     }
- }
+    }
+}
 
- /* end call */
+div {
+    &.callAction {
+        margin-top: 70px;
+        text-align: center;
+        margin-bottom: 100px;
 
- /* footer */
+        h2 {
+            &.callAction_titulo {
+                color: $colorPrimario;
+                font-size: 50px;
+                margin-bottom: 50px;
+            }      
+        }
+        button {
+            &.miBoton {
+                background-color:$colorPrimario;
+                color: white;
+                border: none;
+                box-shadow: $sombra;
+            }
+            &.miBoton:hover{
+                background-color: $colorTerciario;
+                color: $colorPrimario;
+                border: 1px solid $colorPrimario;
+               
+            }
+        }
+    }
+}
+
+/* end call */
+
+/* footer */
 
 footer {
     background-color: $colorPrimario;
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content:flex-end;
+    justify-content: flex-end;
     ul {
         &.nav {
             li {
-                &.nav-item{
+                &.nav-item {
                     a {
                         &.nav-link {
                             color: white;
@@ -137,4 +163,3 @@ footer {
         }
     }
 }
-
